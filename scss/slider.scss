@@ -1,0 +1,255 @@
+%button_fot_slider{
+  border-radius: 55px;
+    color: rgb(255, 255, 255);
+    padding:20px 25px;
+    display: inline-flex;
+    border:0px;
+  border-width: 1px;
+  border-color: rgb(242, 109, 40);
+  border-style: solid;
+  background-color: rgba(242, 109, 40, 0);
+    font-size: 14px;
+    font-family: "Gilroy-Heavy";
+    color: rgb(242, 109, 40);
+    &:hover{
+  border-width: 1px;
+  border-color: rgb(242, 109, 40);
+  border-style: solid;
+  background-color: rgb(242, 109, 40);
+  box-shadow: 0px 14px 15px 0px rgba(94, 46, 21, 0.34);
+  color: white;
+  transition: 0.3s;
+    }
+}
+$maxWidth: 1920;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+.slider,.slider2 {
+      position: relative;
+      overflow: hidden;
+
+      margin-left: auto;
+          margin-right: auto;
+
+    }
+    .slider2{
+      width: calc(100% + 45px);
+      left: -20px;
+      @media only screen and (max-width: 1200px){
+        width: 100%;
+        left: 0px;
+
+
+}
+  }
+.sliderKolya2{
+  position: relative;
+  width: 100%;
+  max-width: 1162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    @media only screen and (max-width: 1200px){
+      width: 90%;
+}
+@media only screen and (max-width: 800px){
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 500px){
+  width: 100%;
+}
+@media only screen and (max-width: 400px){
+  width: 80%;
+
+}
+}
+
+.slider__wrapper2 {
+display: flex;
+position: relative;
+transition: transform 0.6s ease;
+
+}
+
+    .slider__item2 {
+      flex: 0 0 16.666666%;
+      padding: 0px 15px;
+      @media only screen and (max-width: 1200px){
+        flex: 0 0 20%;
+    }
+    @media only screen and (max-width: 1100px){
+      flex: 0 0 25%;
+  }
+  @media only screen and (max-width: 800px){
+    flex: 0 0 33.3333333%;
+    padding: 0px 10px;
+}
+@media only screen and (max-width: 600px){
+  flex: 0 0 50%;
+}
+@media only screen and (max-width: 450px){
+  padding: 0px 5px;
+}
+@media only screen and (max-width: 400px){
+  flex: 0 0 100%;
+
+}
+    }
+
+    .slider__control,.slider__control2 {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      color: transparent;
+      text-align: center;
+      height: 10px;
+border: 0px;
+@media only screen and (max-width: 800px){
+  width: 90px;
+
+}
+  }
+.slider__control2{
+  right: 0px;
+      bottom: 0px;
+}
+    .slider__control:hover,.slider__control2:hover,
+    .slider__control:focus,.slider__control2:focus {
+      text-decoration: none;
+
+    }
+
+
+    .slider__control_left2 {
+      right: 150px;
+      @media only screen and (max-width: 1200px){
+        right: 165px;
+}
+@media only screen and (max-width: 800px){
+  right: 120px;
+}
+@media only screen and (max-width: 600px){
+right: auto;
+left: calc( 50% - 105px );
+}
+    }
+    .slider__control_right{
+      right: 30px;
+    }
+  .slider__control_right2{
+      @media only screen and (max-width: 1200px){
+        right: 15px;
+}
+@media only screen and (max-width: 800px){
+  right: 10px;
+}
+@media only screen and (max-width: 600px){
+right: auto;
+left: calc( 50% + 10px );
+}
+
+    }
+
+    .slider__control2::before {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+.slider__control_left2:hover{
+  &::before {
+    background-image: url("../img/content/slider/LeftActiveArrow.png");
+  }
+}
+     .slider__control_left2::before {
+      background-image: url("../img/content/slider/LeftArrow.png");
+    }
+.slider__control_right2:hover{
+  &::before {
+    background-image: url("../img/content/slider/RightActiveArrow.png");
+  }
+}
+.slider__control_right2::before {
+  background-image: url("../img/content/slider/RightArrow.png");
+&:hover{
+
+}
+}
+    .slider__item2>div {
+      text-align: center;
+      img{
+      width: 100%;
+      height: 100%;
+      @media only screen and (max-width: 1000px){
+    }
+
+      }
+
+
+    }
+
+.slider__indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+      @media only screen and (max-width: 1200px){
+        left: 5px;
+}
+@media only screen and (max-width: 1100px){
+  left: 10px;
+}
+@media only screen and (max-width: 800px){
+left: 5px;
+}
+@media only screen and (max-width: 600px){
+display: none;
+}
+}
+
+.slider__indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 1px;
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #3B3F49;
+  background-clip: padding-box;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  @media only screen and (max-width: 1100px){
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+}
+
+.slider__indicators li.active {
+  opacity: 1;
+  width: 60px;
+  @media only screen and (max-width: 1100px){
+    width: 30px;
+}
+  background-color: #FFFFFF;
+}

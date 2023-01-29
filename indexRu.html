@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zazamkom</title>
+  <link rel="icon" href="">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/popup.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="ol-md-4 col-xs-12 b-popup block7_popup" id="popup1">
+
+    <div class="popup_content">
+      <a class="popup_exit" href="javascript:PopUpHide();"><img src="img/content/popup_close.svg" alt=""></a>
+      <p class="popup_content_name">Просто оставьте телефон</p>
+      <p class="popup_content_tittle"> мы перезвоним в течение 2 минут</p>
+      <form class="popupform" id="form" name="form">
+        <div class="block1_form_tel">
+          <p>ВАШ НОМЕР:</p>
+
+          <input type="tel" maxlength="19" placeholder="+38 (___) ___-__-__" name="f[telephone]" value="" id="phone" required>
+        </div>
+        <div class="popup_content_form_input">
+          <button type="submit" name="button" class="submit" id="subs_btn1">Срочный вызов</button>
+          <div class="blur">
+
+          </div>
+        </div>
+      </form>
+      <hr>
+      <div class="block1_or_tell">
+        <p>или звоните:</p>
+        <a href="tel:+3 80(50 290 3020)">+380 50 290 3020</a>
+        <a href="tel:+3 80(98-610-1457)">+380 98 610 1457</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+  </script>
+
+  <div class="ol-md-4 col-xs-12 b-popup block7_popup" id="popup2">
+
+    <div class="popup_content">
+      <a class="popup_exit" href="javascript:PopUpHide2();"><img src="img/content/popup_close.svg" alt=""></a>
+      <p class="popup_content_name">Спасибо за обращение</p>
+      <p class="popup_content_tittle" style="margin-bottom:20px;"> мы перезвоним в течение 2 минут</p>
+
+      <hr>
+      <div class="block1_or_tell">
+        <p>или звоните:</p>
+        <a href="tel:+3 80(50 290 3020)">+380 50 290 3020</a>
+        <a href="tel:+3 80(98-610-1457)">+380 98 610 1457</a>
+      </div>
+    </div>
+
+  </div>
+
+  <header>
+
+    <div class="header_block1">
+
+
+      <div class="header_content">
+
+        <div class="header_logo">
+
+          <img src="img/logo_zazamkom.png" alt="">
+          <img src="img/logo2_zazamkom.png" alt="">
+          <div class="header_logo_info">
+            <p>Асоціація</p>
+            <p>локмайстрів</p>
+            <p>України</p>
+          </div>
+        </div>
+
+        <div class="header_mobile">
+          <div class="header_mobile_item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.6625 17.505H14.6391C11.4377 17.4262 8.38269 16.1479 6.07913 13.9233C3.85373 11.6219 2.57471 8.56797 2.4957 5.3675C2.49098 4.91916 2.66701 4.4878 2.98413 4.17083L5.24579 1.91083C5.57121 1.58551 6.09871 1.58551 6.42413 1.91083L9.75746 5.24417C10.0828 5.56958 10.0828 6.09708 9.75746 6.4225L8.42746 7.75C8.67414 8.6716 9.12852 9.5245 9.75579 10.2433C10.4733 10.8708 11.3251 11.3255 12.2458 11.5725L13.5791 10.2442C13.9045 9.91885 14.432 9.91885 14.7575 10.2442L18.0908 13.5775C18.4161 13.9029 18.4161 14.4304 18.0908 14.7558L15.8291 17.0167C15.5207 17.3283 15.1009 17.504 14.6625 17.505ZM5.83329 3.67917H5.82913L4.16246 5.34917C4.23042 8.11471 5.33439 10.7539 7.25579 12.7442C9.24615 14.6649 11.8848 15.7688 14.65 15.8375L16.3225 14.1667L14.1625 12.0125L13.085 13.0892C12.9308 13.245 12.7208 13.3329 12.5016 13.3333C12.4431 13.3334 12.3847 13.3272 12.3275 13.315C10.9388 13.0078 9.64945 12.3571 8.57746 11.4225C7.64284 10.3505 6.99214 9.06114 6.68496 7.6725C6.62701 7.39647 6.71262 7.10986 6.91246 6.91083L7.98913 5.83333L5.83329 3.67917Z"
+                fill="white" />
+            </svg>
+            <a href="tel:+3 80(50 290 3020)">+380 50 290 3020</a>
+          </div>
+          <div class="header_mobile_item">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.6625 17.505H14.6391C11.4377 17.4262 8.38269 16.1479 6.07913 13.9233C3.85373 11.6219 2.57471 8.56797 2.4957 5.3675C2.49098 4.91916 2.66701 4.4878 2.98413 4.17083L5.24579 1.91083C5.57121 1.58551 6.09871 1.58551 6.42413 1.91083L9.75746 5.24417C10.0828 5.56958 10.0828 6.09708 9.75746 6.4225L8.42746 7.75C8.67414 8.6716 9.12852 9.5245 9.75579 10.2433C10.4733 10.8708 11.3251 11.3255 12.2458 11.5725L13.5791 10.2442C13.9045 9.91885 14.432 9.91885 14.7575 10.2442L18.0908 13.5775C18.4161 13.9029 18.4161 14.4304 18.0908 14.7558L15.8291 17.0167C15.5207 17.3283 15.1009 17.504 14.6625 17.505ZM5.83329 3.67917H5.82913L4.16246 5.34917C4.23042 8.11471 5.33439 10.7539 7.25579 12.7442C9.24615 14.6649 11.8848 15.7688 14.65 15.8375L16.3225 14.1667L14.1625 12.0125L13.085 13.0892C12.9308 13.245 12.7208 13.3329 12.5016 13.3333C12.4431 13.3334 12.3847 13.3272 12.3275 13.315C10.9388 13.0078 9.64945 12.3571 8.57746 11.4225C7.64284 10.3505 6.99214 9.06114 6.68496 7.6725C6.62701 7.39647 6.71262 7.10986 6.91246 6.91083L7.98913 5.83333L5.83329 3.67917Z"
+                fill="white" />
+            </svg>
+            <a href="tel:+3 80(98-610-1457)">+380 98 610 1457</a>
+          </div>
+          <div class="dropdown">
+            <div class="dropbtn" style="background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;">RU</div>
+            <div class="dropdown-content">
+              <a href="#">RU</a>
+              <a href="index.html">UA</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="header_central_info">
+        <div class="header_central_info_left">
+          <p class="header_central_info_allday">РАБОТАЕМ КРУГЛОСУТОЧНО!</p>
+          <p class="header_central_info_broke">Сломалась дверь? заел замок?</p>
+          <p class="header_central_info_name">ZAZAMKOM</p>
+          <p class="header_central_info_name2">приедут в срок!</p>
+          <hr>
+          <p class="header_central_info_open">Аварийное вскрытие и ремонт замков в Днепре и области</p>
+          <hr>
+          <a href="javascript:PopUpShow();">Срочный вызов </a>
+          <div class="shadow_a">
+
+          </div>
+        </div>
+        <div class="header_central_info_right">
+          <img class="header_central_info_right_BigImage" src="img/block1_big.png" alt="">
+          <div class="header_central_info_right_image">
+            <img class="" src="img/block1_image1.png" alt="">
+            <img class="" src="img/block1_image2.png" alt="">
+          </div>
+          <div class="blur">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner_after_header">
+      <div class="banner_after_header_fon">
+        <div class="banner_content">
+          <div class="banner_content_item">
+            <p class="banner_content_item_tittle">Вызов мастера</p>
+            <p class="banner_content_item_price">300 грн</p>
+            <hr>
+            <p class="banner_content_item_info">*фиксированная стоимость</p>
+          </div>
+          <div class="banner_content_item">
+            <p class="banner_content_item_tittle">Стоимость работ</p>
+            <p class="banner_content_item_price">от 300 грн</p>
+            <hr>
+            <p class="banner_content_item_info">*в зависимости от сложности замков, марки и года выпуска авто, времени суток и дальности нахождения объекта</p>
+          </div>
+          <div class="banner_content_item">
+            <p class="banner_content_item_tittle">Ложный вызов</p>
+            <p class="banner_content_item_price">300 грн</p>
+            <hr>
+            <p class="banner_content_item_info">*фиксированная стоимость</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="block1">
+      <div class="block1_left">
+        <img src="img/content/block1.png" alt="">
+      </div>
+      <div class="block1_right">
+        <p class="block1_right_tittle"> мы перезвоним в течение 2 минут</p>
+        <form class="" action="index.html" method="post" id="form2" name="form2">
+          <div class="block1_form_tel">
+            <p>ВАШ НОМЕР:</p>
+
+            <input type="tel" maxlength="19" placeholder="+38 (___) ___-__-__" name="f[telephone]" value="" id="phone2" required>
+          </div>
+          <div class="block1_form_input">
+            <button type="submit" name="button" class="submit" id="subs_btn">Срочный вызов</button>
+            <div class="blur">
+
+            </div>
+          </div>
+        </form>
+        <hr>
+        <div class="block1_or_tell">
+          <p>или звоните:</p>
+          <a href="tel:+3 80(50 290 3020)">+380 50 290 3020</a>
+          <a href="tel:+3 80(98-610-1457)">+380 98 610 1457</a>
+        </div>
+      </div>
+    </div>
+    <div class="block2">
+      <div class="block2_name">
+        <p>команда</p>
+      </div>
+      <div class="block2_content">
+        <div class="block2_content_tittle">
+          <p>Мы - команда</p>
+          <p>профессиональных</p>
+          <p>локмастеров</p>
+        </div>
+        <div class="block2_content_circle">
+          <div class="block2_content_circle_items">
+            <p>7</p>
+            <p>лет опыта</p>
+          </div>
+          <div class="block2_content_circle_items">
+            <p>10000+</p>
+            <p>замков открыто</p>
+          </div>
+          <div class="block2_content_circle_items">
+            <p>4000+</p>
+            <p>замков установлено</p>
+          </div>
+          <div class="left_man">
+            <img src="img/content/block2/man1.png" alt="">
+            <p>Дмитрий</p>
+          </div>
+          <div class="right_man">
+            <img src="img/content/block2/man2.png" alt="">
+            <p>Александр</p>
+          </div>
+        </div>
+        <div class="block2_content_footer">
+
+        </div>
+      </div>
+    </div>
+    <div class="block3">
+
+      <div class="block3_tittle">
+        <p>Вскрытие, ремонт, замена</p>
+        <p>Замков всех типов</p>
+      </div>
+      <div class="block3_content">
+        <div class="block3_name">
+          <p>услуги</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item1.jpg" alt="">
+          <p>Двери</p>
+          <p>Входные, бронированные, гаражные</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item2.jpg" alt="">
+          <p>Автомобили</p>
+          <p>Всех марок, в том числе премиальные</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item3.jpg" alt="">
+
+          <p>Сейфы</p>
+          <p>Электронные, кодовые, ключевые</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item4.jpg" alt="">
+          <p>двери под заказ</p>
+          <p>Входные, бронированные, взломостойкие</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item5.jpg" alt="">
+
+          <p>Установка</p>
+          <p>Замков, цилиндров, броненакладок</p>
+        </div>
+        <div class="block3_content_item">
+          <img src="img/content/block3/item6.jpg" alt="">
+          <p>Установка</p>
+          <p>Доводчиков, дверных ручек</p>
+        </div>
+      </div>
+      <div class="block3_button">
+        <a href="javascript:PopUpShow();">Вызвать мастера</a>
+        <div class="block3_shadow">
+
+        </div>
+      </div>
+    </div>
+    <div class="block4">
+      <p class="block4_tittle">Как мы это делаем?</p>
+      <div class="block4_content">
+        <div class="block4_content_item">
+          <p>01</p>
+          <img src="img/content/block4/item1.png" alt="" style="z-index:40;">
+          <p>Вскрываем за 3 минуты </p>
+          <p>(сейфы - до 10)</p>
+          <hr>
+        </div>
+        <div class="block4_content_item">
+          <p>02</p>
+          <img src="img/content/block4/item2.png" alt="">
+
+          <p>Работаем</p>
+          <p>без повреждений</p>
+          <hr>
+        </div>
+        <div class="block4_content_item">
+          <p>03</p>
+          <img src="img/content/block4/item3.png" alt="">
+          <p>Сразу устанавливаем новый замок (до 100 шт у мастера в наличии)</p>
+
+          <hr>
+        </div>
+        <div class="block4_content_item">
+          <p>04</p>
+          <img src="img/content/block4/item4.png" alt="">
+          <p>Даем гарантию</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="block5">
+      <div class="block5_tittle">
+        <p>Устанавливаем</p>
+        <p>самые надежные замки</p>
+      </div>
+      <div class="sliderKolya2 fadeInUp wow" data-wow-delay="0.3s" style="z-index:55;">
+
+        <div class="slider2">
+          <div class="slider__wrapper2">
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item1.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item2.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item3.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item4.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item5.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item6.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item7.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item8.jpg" alt="">
+              </div>
+            </div>
+            <div class="slider__item2">
+              <div style="">
+                <img src="img/content/slider/item9.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <a class="slider__control2 slider__control_left2" href="#" role="button"></a>
+        <a class="slider__control2 slider__control_right2 slider__control_show2" href="#" role="button"></a>
+      </div>
+    </div>
+    <div class="block6">
+      <div class="block6_name">
+        <p>отзывы</p>
+      </div>
+      <div class="block6_tittle">
+        <p>Что говорят</p>
+        <p>наши клиенты</p>
+      </div>
+      <div class="block6_content">
+        <div class="block6_content_item">
+          <div class="block6_content_item_header">
+            <img src="img/content/block6/item1.png" alt="">
+            <div class="block6_content_item_header_name">
+              <img src="img/content/block6/quote.svg" alt="">
+
+              <p>Руслан</p>
+            </div>
+
+          </div>
+          <p class="block6_content_item_client_info">Сел аккумулятор и у меня не получилось открыть машину. Обратился в компанию "ЗаЗамком". Приехали за 15 минут и помогли открыть авто. Плюс бесплатно подзарядили аккумулятор.</p>
+        </div>
+        <div class="block6_content_item">
+          <div class="block6_content_item_header">
+            <img src="img/content/block6/item2.png" alt="">
+            <div class="block6_content_item_header_name">
+              <img src="img/content/block6/quote.svg" alt="">
+
+              <p>Шевцова Наталья</p>
+            </div>
+
+          </div>
+          <p class="block6_content_item_client_info">Пришла с работы домой и не смогла открыть замок. Вызвала мастера. Приехал очень быстро и за две минуты открыл. Как оказалось у меня сломался замок. Порадовало то, что не оставили на ночь с открытой
+            дверью,
+            а предложили сразу сменить на новый.</p>
+        </div>
+        <div class="block6_content_item">
+          <div class="block6_content_item_header">
+            <img src="img/content/block6/item3.png" alt="">
+            <div class="block6_content_item_header_name">
+              <img src="img/content/block6/quote.svg" alt="">
+
+              <p>Гавриш Виктор</p>
+            </div>
+
+          </div>
+          <p class="block6_content_item_client_info">Возникла срочная необходимость врезать дополнительный замок в металлическую дверь. Вызвал спецов и уже через пару часов замок стоял. Приехал уже с замками и помог правильно подобрать нужный мне
+            вариант.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="block7">
+      <div class="block7_content">
+        <div class="block7_content_tittle">
+          <p>Узнайте стоимость работ</p>
+          <p>Мы перезвоним, ответим на все вопросы и поможем с выбором <br>при необходимости</p>
+        </div>
+        <form class="" action="index.html" method="post" name="form3" id="form3">
+          <div class="block7_form_item">
+            <p>Тип замка:</p>
+            <select class="" name="f[type]">
+              <option value="Двери">Двери</option>
+              <option value="Автомобиль">Автомобиль</option>
+              <option value="Сейф">Сейф</option>
+            </select>
+          </div>
+          <div class="block7_form_item">
+            <p>Вид работ:</p>
+            <select class="" name="f[install]">
+              <option value="Открыть">Открыть</option>
+              <option value="Замена">Замена</option>
+              <option value="Ремонт">Ремонт</option>
+            </select>
+          </div>
+          <div class="block7_form_item">
+            <p>Куда ехать:</p>
+            <select class="" name="f[address]">
+              <option value="Днепр">Днепр</option>
+              <option value="Область">Область</option>
+            </select>
+          </div>
+          <div class="block7_form_item">
+            <p>Ваше имя:</p>
+            <input type="text" value="" class="block7_form_name" name="f[name]" required>
+          </div>
+          <div class="block7_form_item">
+            <p>Ваш номер:</p>
+            <input type="tel" maxlength="19" placeholder="+38 (___) ___-__-__" value="" id="phone3" name="f[telephone]" required>
+          </div>
+          <div class="block7_form_item" id="block7_button">
+            <button type="submit" name="button" class="submit" id="subs_btn">УЗНАТЬ СТОИМОСТЬ</button>
+
+            <div class="block7_shadow">
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>©2021. ZaZamkom. Все права защищены</p>
+    <a href="https://tkachuk.pro"><img src="img/content/footerLogo.png" alt=""></a>
+  </footer>
+  <script>
+    $('#form').submit(function(e) {
+      e.preventDefault()
+      e.stopImmediatePropagation()
+      $.post(
+        'main.php', // адрес обработчика
+        $("#form").serialize(), // отправляемые данные
+
+        function(msg) { // получен ответ сервера
+          PopUpHide();
+          PopUpShow2();
+        }
+      );
+
+      return false;
+    });
+    $('#form2').submit(function(e) {
+      e.preventDefault()
+      e.stopImmediatePropagation()
+      $.post(
+        'main.php', // адрес обработчика
+        $("#form2").serialize(), // отправляемые данные
+
+        function(msg) { // получен ответ сервера
+          PopUpHide();
+          PopUpShow2();
+        }
+      );
+
+      return false;
+    });
+    $('#form3').submit(function(e) {
+      e.preventDefault()
+      e.stopImmediatePropagation()
+      $.post(
+        'mainCalc.php', // адрес обработчика
+        $("#form3").serialize(), // отправляемые данные
+
+        function(msg) { // получен ответ сервера
+          PopUpHide();
+          PopUpShow2();
+        }
+      );
+
+      return false;
+    });
+  </script>
+  <script>
+    function PopUpShow() {
+      $("#popup1").css('display', 'flex');
+
+    }
+
+    function PopUpHide() {
+      $("#popup1").hide();
+    }
+
+    function PopUpShow2() {
+      $("#popup2").css('display', 'flex');
+
+    }
+
+    function PopUpHide2() {
+      $("#popup2").hide();
+    }
+  </script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/slider2.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#phone").mask("+38 (099) 999-99-99");
+      $("#phone2").mask("+38 (099) 999-99-99");
+      $("#phone3").mask("+38 (099) 999-99-99");
+
+    });
+  </script>
+</body>
+
+</html>
